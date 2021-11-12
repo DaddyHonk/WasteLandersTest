@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3817916218367702225
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3817916218367702226}
+  - component: {fileID: 3817916218367702227}
+  m_Layer: 0
+  m_Name: gunGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3817916218367702226
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3817916218367702225}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.02198467, y: 0.10505286, z: -0.2510569}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3817916218367702227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3817916218367702225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87addbd760ac8464f8e81fb4327959ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bodyParts:
+  - {fileID: 6614195499057460280, guid: 2e44511bb2634284fb54b4e62de82d57, type: 3}
+  - {fileID: 4163056081869061378, guid: 20aeee3db39a42b4194881433d6f1201, type: 3}
+  barrelParts:
+  - {fileID: 9197358786092785994, guid: f565fe1d5dba0df4183ef6961bb9e071, type: 3}
+  - {fileID: 6294082085962118445, guid: 611792370ec712349af4ba07164cd386, type: 3}
+  scopeParts:
+  - {fileID: 1616557097453309731, guid: 3eda08925f0d1354d9fe66f627fa2421, type: 3}
+  - {fileID: 2904036068452027529, guid: e3ca0ecda98061349b4c1b929549a085, type: 3}
+  magazineParts:
+  - {fileID: 7596066199555514105, guid: ad1a0869fe7e6394aaa0c76c3a6a5531, type: 3}
+  - {fileID: 2315034744510512301, guid: 16f011cca6a2ffd43bebb12e02abae6e, type: 3}
+  stockParts:
+  - {fileID: 4109775078675370568, guid: 8c5f76ed3d95d2240806780ce3628a1a, type: 3}
+  - {fileID: 5935365962347972037, guid: c027b56b20d5e264796768592bb28257, type: 3}
