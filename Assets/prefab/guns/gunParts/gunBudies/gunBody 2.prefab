@@ -40,6 +40,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4163056081869061379}
   - component: {fileID: 7503707278849924724}
+  - component: {fileID: 6304988564765876821}
   m_Layer: 0
   m_Name: gunBody 2
   m_TagString: Untagged
@@ -83,6 +84,18 @@ MonoBehaviour:
   scopeSocket: {fileID: 4163056082075038281}
   magazineSocket: {fileID: 4163056081592873120}
   stockSocket: {fileID: 4163056082828121441}
+--- !u!114 &6304988564765876821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4163056081869061378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45c5663183f382a40aaa2bb63b455bcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4163056082056656290
 GameObject:
   m_ObjectHideFlags: 0
